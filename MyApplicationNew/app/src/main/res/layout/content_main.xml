@@ -169,7 +169,7 @@
                     android:background="@drawable/border"
 
                     android:gravity="left"
-                    android:hint="Enter amount"
+                    android:hint="Enter Amount/Result"
                     android:padding="5dp"
                     android:singleLine="true"
                     android:textAlignment="gravity"
@@ -177,14 +177,14 @@
                     android:textSize="12sp" />
 
                 <EditText
-                    android:id="@+id/res"
+                    android:id="@+id/INR"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/border"
                     android:gravity="left"
-                    android:hint="Result"
+                    android:hint="Enter Amount/Result"
                     android:padding="5dp"
                     android:singleLine="true"
                     android:textAlignment="gravity"
@@ -192,7 +192,7 @@
                     android:textSize="12sp" />
 
                 <EditText
-                    android:id="@+id/res1"
+                    android:id="@+id/US"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="10dp"
@@ -200,14 +200,14 @@
                     android:background="@drawable/border"
                     android:gravity="left"
                     android:textColorHint="@android:color/black"
-                    android:hint="Result"
+                    android:hint="Enter Amount/Result"
                     android:padding="5dp"
                     android:singleLine="true"
                     android:textAlignment="gravity"
                     android:textSize="12sp" />
 
                 <EditText
-                    android:id="@+id/res2"
+                    android:id="@+id/malaysian"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="10dp"
@@ -215,36 +215,21 @@
                     android:background="@drawable/border"
                     android:gravity="left"
                     android:textColorHint="@android:color/black"
-                    android:hint="Result"
+                    android:hint="Enter Amount/Result"
                     android:padding="5dp"
                     android:singleLine="true"
                     android:textAlignment="gravity"
                     android:textSize="12sp" />
 
                 <EditText
-                    android:id="@+id/res3"
+                    android:id="@+id/russian"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/border"
                     android:gravity="left"
-                    android:hint="Result"
-                    android:textColorHint="@android:color/black"
-                    android:padding="5dp"
-                    android:singleLine="true"
-                    android:textAlignment="gravity"
-                    android:textSize="12sp" />
-
-                <EditText
-                    android:id="@+id/res4"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/border"
-                    android:gravity="left"
-                    android:hint="Result"
+                    android:hint="Enter Amount/Result"
                     android:textColorHint="@android:color/black"
                     android:padding="5dp"
                     android:singleLine="true"
@@ -252,14 +237,14 @@
                     android:textSize="12sp" />
 
                 <EditText
-                    android:id="@+id/res5"
+                    android:id="@+id/hungarian"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/border"
                     android:gravity="left"
-                    android:hint="Result"
+                    android:hint="Enter Amount/Result"
                     android:textColorHint="@android:color/black"
                     android:padding="5dp"
                     android:singleLine="true"
@@ -267,7 +252,22 @@
                     android:textSize="12sp" />
 
                 <EditText
-                    android:id="@+id/res6"
+                    android:id="@+id/japan"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border"
+                    android:gravity="left"
+                    android:hint="Enter Amount/Result"
+                    android:textColorHint="@android:color/black"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textAlignment="gravity"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/france"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="10dp"
@@ -275,7 +275,7 @@
                     android:background="@drawable/border"
                     android:textColorHint="@android:color/black"
                     android:gravity="left"
-                    android:hint="Result"
+                    android:hint="Enter Amount/Result"
                     android:padding="5dp"
                     android:singleLine="true"
                     android:textAlignment="gravity"
@@ -299,6 +299,63 @@
                     android:layout_marginTop="5dp"
                     android:onClick="click"
                     android:src="@drawable/ic_action_convert" />
+                <ImageButton
+                    android:id="@+id/submit1"
+                    android:layout_width="27dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="click1"
+                    android:src="@drawable/ic_action_convert" />
+                <ImageButton
+                    android:id="@+id/submit2"
+                    android:layout_width="27dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="click2"
+                    android:src="@drawable/ic_action_convert" />
+                <ImageButton
+                    android:id="@+id/submit3"
+                    android:layout_width="27dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="click3"
+                    android:src="@drawable/ic_action_convert" />
+                <ImageButton
+                    android:id="@+id/submit4"
+                    android:layout_width="27dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="click4"
+                    android:src="@drawable/ic_action_convert" />
+                <ImageButton
+                    android:id="@+id/submit5"
+                    android:layout_width="27dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="click5"
+                    android:src="@drawable/ic_action_convert" />
+                <ImageButton
+                    android:id="@+id/submit6"
+                    android:layout_width="27dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="click6"
+                    android:src="@drawable/ic_action_convert" />
+                <ImageButton
+                    android:id="@+id/submit7"
+                    android:layout_width="27dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:onClick="click7"
+                    android:src="@drawable/ic_action_convert" />
+
 
             </LinearLayout>
         </LinearLayout>
